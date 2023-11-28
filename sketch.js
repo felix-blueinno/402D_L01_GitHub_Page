@@ -90,3 +90,7 @@ function keyPressed() {
         currentColors = forestColors;
     }
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
